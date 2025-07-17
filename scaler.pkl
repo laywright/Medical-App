@@ -1,9 +1,1 @@
 
-# === 💾 STEP 9: SAVE MODEL + SCALER + ENCODERS ===
-import joblib
-
-joblib.dump(model, 'birth_weight_model.pkl')
-joblib.dump(scaler, 'scaler.pkl')
-joblib.dump(label_encoders, 'label_encoders.pkl')
-
-print("✅ Model, Scaler & Encoders Saved Successfully!")
